@@ -1,0 +1,25 @@
+
+{
+    "name": "XERXIS TECHNOLOGIES",
+    "short_name": "XERXIS TECHNOLOGIES",
+    "start_url": ".",
+    "background_color": "#f2f2f2",
+    "theme_color": "#f2f2f2",
+    "display": "standalone",
+    "icons" : [
+        {
+            "src": "./images/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+
+        },
+        {
+            "src": "./images/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+
+        }
+    ]
+ }
+ */
