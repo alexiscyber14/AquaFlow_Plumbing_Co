@@ -1,4 +1,4 @@
-if( "serviceWorker" in navigator){
+/*if( "serviceWorker" in navigator){
   navigator.serviceWorker.register("sw.js").then(registration=>{
     console.log("sw registered");
     console.log(registration)
@@ -7,7 +7,7 @@ if( "serviceWorker" in navigator){
     console.log(error);
   })
 }
-
+*/
 window.scrollTo(0,1)
 
 const headerMenu =()=>{
