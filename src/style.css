@@ -35,7 +35,7 @@ a {
 
 main {
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.683);
+  background-color: rgba(0, 0, 0, 0.308);
 }
 
 header {
@@ -46,7 +46,7 @@ header {
   width: 100%;
   top: 0%;
   z-index: 30;
-  background-color: rgba(0, 0, 0, 0.683);
+  background-color: rgba(0, 0, 0, 0.220);
 }
 
 header nav {
