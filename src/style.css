@@ -139,10 +139,13 @@ header nav .links-wrapper .menu {
 }
 
 header nav .links-wrapper .menu button {
+  position:absolute;
+  top: 0px;
+  right: 0px;
   font-size: 30px;
   border: none;
   margin-right: 0px;
-  background-color: transparent;
+  background-color:red; transparent;
 }
 
 header nav .links-wrapper .menu button i {
