@@ -143,6 +143,7 @@ header nav .links-wrapper .menu button {
   top: 0px;
   right: 0px;
   font-size: 30px;
+  text-align: right;
   border: none;
   margin-right: 0px;
   background-color:red; transparent;
