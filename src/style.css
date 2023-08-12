@@ -141,7 +141,7 @@ header nav .links-wrapper .menu {
 header nav .links-wrapper .menu button {
   font-size: 30px;
   border: none;
-  margin-right: 5px;
+  margin-right: 0px;
   background-color: transparent;
 }
 
@@ -336,6 +336,26 @@ align-items: center;
   background-color: rgb(205, 0, 0);
   padding: 0% 15%;
   border-radius: 16px;
+}
+.intro-section .intro-content .ico{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 6%;
+}
+.intro-section .intro-content .ico a{
+  color:white;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  display: flex;
+  border-radius: 6px;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* what we doo css */
