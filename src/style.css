@@ -142,7 +142,7 @@ header nav .links-wrapper .menu button {
   position:absolute;
   top: 0px;
   right: 0px;
-  width: 5px;
+  padding:0px;
   font-size: 30px;
   text-align: right;
   border: none;
@@ -889,6 +889,7 @@ footer ul li {
 footer ul li a {
   color: #fff;
 }
+/*
 @media screen and (min-width: 800px) {
   .mid-section .mid-section-wrapper div {
     width: 47%;
@@ -911,7 +912,7 @@ footer ul li a {
     box-shadow: 2px 2px 4px rgb(111, 111, 111);
   }
   
-  /* intro section css */
+  /* intro section css *
 .intro-section {
   background-size: 10%;
   padding-top: 1%;
@@ -990,8 +991,7 @@ footer ul li a {
 
 .act {
   background: linear-gradient(to bottom, #f3f3f3, white, white, white);
-/*display: flex;
-flex-direction: row;*/
+
 }
 
 .w-d-w {
@@ -1035,7 +1035,7 @@ flex-direction: row;*/
   
 
 
-/* portfolio projects css */
+/* portfolio projects css *
 
 .testimonialz {
   text-align: center;
@@ -1063,7 +1063,7 @@ flex-direction: row;*/
 }
 
 .testimoniala {
-  flex: 0 0 30.5%; /* Each testimonial takes the full width of the slider initially */
+  flex: 0 0 30.5%; 
   padding: 20px;
   margin: 2%;
   background-color: #f4f4f4;
@@ -1104,7 +1104,7 @@ flex-direction: row;*/
 
 
   
-    /* form css */
+    /* form css *
 .contact .edge form input {
   margin-top: 0.5%;
   padding: 1%;
@@ -1137,7 +1137,7 @@ flex-direction: row;*/
     box-shadow: 2px 2px 4px rgb(111, 111, 111);
   }
   
-  /* intro section css */
+  /* intro section css *
 .intro-section {
   background-size: 10%;
   padding-top: 1%;
@@ -1216,8 +1216,7 @@ flex-direction: row;*/
 
 .act {
   background: linear-gradient(to bottom, #f3f3f3, white, white, white);
-/*display: flex;
-flex-direction: row;*/
+
 }
 
 .w-d-w {
@@ -1269,7 +1268,7 @@ flex-direction: row;*/
   
 
 
-/* portfolio projects css */
+/* portfolio projects css *
 
 .testimonialz {
   text-align: center;
@@ -1297,7 +1296,7 @@ flex-direction: row;*/
 }
 
 .testimoniala {
-  fle:30.5%; /* Each testimonial takes the full width of the slider initially */
+  fle:30.5%; 
   padding: 20px;
   margin: 2%;
   background-color: #f4f4f4;
@@ -1336,7 +1335,7 @@ flex-direction: row;*/
   width: 40px;
 }
 
-  /* form css */
+  /* form css *
 .contact .edge form input {
   margin-top: 0.5%;
   padding: 1%;
@@ -1354,3 +1353,5 @@ flex-direction: row;*/
 
 }
 }
+
+*/
