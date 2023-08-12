@@ -20,8 +20,8 @@ body {
   background-image: url('../images/b3.jpg');
   background-position: center;
   background-size: cover;
-  background-position-x:0%;
-  background-attachment: fixed;
+  backgroud-position-x:0%;
+  background-attachent: fixed;
   background-repeat: no-repeat;
 }
 
