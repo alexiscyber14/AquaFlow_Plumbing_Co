@@ -301,7 +301,7 @@ align-items: center;
 }
 .intro-section .intro-content h1 {
   margin: 0;
-  color: rgb(0, 172, 252);
+  color:white; rgb(0, 172, 252);
   font-weight: 900;
   padding-top: 1%;
   text-align: center;
@@ -350,7 +350,8 @@ align-items: center;
   font-size: 25px;
   height: 40px;
   width: 40px;
-  border: 2px solid white;
+  background-color: #ffffff48;
+  font-weight: bold;
   display: flex;
   border-radius: 6px;
   flex-direction:row;
