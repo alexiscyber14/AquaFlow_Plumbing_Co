@@ -303,27 +303,9 @@ header nav .links-wrapper .menu button i {
 }
 
 .intro-section .intro-content .ic{
-  width: 10%;
-  padding-top: 20%;
-  padding-left: 5%;
-}
-.intro-section .intro-content .img-c{
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  border-radius: 360%;
-  overflow: hidden;
-  border: 5px solid white;
-  right: 10%;
-}.intro-section .intro-content .img-c img{
-  width: 106%;
-}
-.intro-section .intro-content .line{
-  position: absolute;
-  background-color: white;
-  height: 7px; width: 37px;
-  right: 0;
-  top: 15%;
+  width: 20%;
+  padding-top: 6%;
+  align-self: center;
 }
 
 .intro-section .intro-content h1 {
@@ -339,11 +321,24 @@ header nav .links-wrapper .menu button i {
   font-size: 40px;
   letter-spacing: 4px;
 }
+.intro-section .intro-content h2 {
+  margin: 0;
+  color:rgb(252, 252, 252);
+  font-weight: 900;
+  align-items: center;
+  padding-top: 1%;
+  align-items: center;
+  padding-left: 5%;
+  text-align:left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
 .intro-section .intro-content h1 span{
   font-size: 12px;
   background-color: #3498db;
   color: white;
-  padding: 10px 20px;
+  padding: 5px 20px;
   margin-top: -10px;
   border-radius: 16px;
   letter-spacing: 2px;
@@ -402,6 +397,7 @@ header nav .links-wrapper .menu button i {
   justify-content: space-around;
   width: 100%;
   margin-top: 17%;
+  margin-bottom: 3%;
 }
 .intro-section .intro-content .ico a{
   color:#3498db;
