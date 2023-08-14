@@ -17,11 +17,10 @@ input[type="password"] {
 
 body {
   margin: 0;
-  background-image: url('../images/b3.jpg');
+  background-image: url('../images/ba.jpg');
   background-position: center;
   background-size: cover;
-  backgroud-position-x:0%;
-  background-attachent: fixed;
+  background-position-x:0%;
   background-repeat: no-repeat;
 }
 
@@ -298,34 +297,86 @@ header nav .links-wrapper .menu button i {
   flex-direction: column;
   padding: 2%;
   padding-top: 4%;
-align-items: center;
-  height: 60vh;
+  position: relative;
+  height: 65vh;
   font-family: 'Poppins', sans-serif;
 }
-.intro-section .intro-content img{
-  width: 20%;
-  padding-top: 15%;
+
+.intro-section .intro-content .ic{
+  width: 10%;
+  padding-top: 20%;
+  padding-left: 5%;
 }
+.intro-section .intro-content .img-c{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 360%;
+  overflow: hidden;
+  border: 5px solid white;
+  right: 10%;
+}.intro-section .intro-content .img-c img{
+  width: 106%;
+}
+.intro-section .intro-content .line{
+  position: absolute;
+  background-color: white;
+  height: 7px; width: 37px;
+  right: 0;
+  top: 15%;
+}
+
 .intro-section .intro-content h1 {
   margin: 0;
-  color:white; rgb(0, 172, 252);
+  color:rgb(252, 252, 252);
   font-weight: 900;
+  align-items: center;
   padding-top: 1%;
-  text-align: center;
+  align-items: center;
+  padding-left: 5%;
+  text-align:left;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   letter-spacing: 4px;
 }
-
+.intro-section .intro-content h1 span{
+  font-size: 12px;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  margin-top: -10px;
+  border-radius: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 .intro-section .intro-content p {
   margin: 0;
   text-transform: uppercase;
   text-align: left;
   color: rgb(255, 255, 255);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 2px;
   padding: 1% 5%;
-  border: 1px solid rgb(231, 231, 231);
+  position: relative;
+}
+
+.intro-section .intro-content p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 5%; /* Adjust the value to control the position of the "half" border */
+  width: 30%; /* Set the width of the "half" border */
+  border-bottom: 4px solid rgb(231, 231, 231);
+}
+.intro-section .intro-content .ms{
+  background-color: white;
+  width: 60%;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: capitalize;
+  margin-left: 15px;
+  color: #3498db;
+  border-radius: 3px;
 }
 
 .intro-section .intro-content .c-u {
@@ -353,11 +404,11 @@ align-items: center;
   margin-top: 17%;
 }
 .intro-section .intro-content .ico a{
-  color:white;
+  color:#3498db;
   font-size: 25px;
   height: 40px;
   width: 40px;
-  background-color: #ffffff48;
+  background-color: #f6f6f6;
   font-weight: bold;
   display: flex;
   border-radius: 6px;
