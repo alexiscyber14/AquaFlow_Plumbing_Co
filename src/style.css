@@ -344,7 +344,7 @@ header nav .links-wrapper .menu button i {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.intro-section .intro-content p {
+.intro-section .intro-content .exp {
   margin: 0;
   text-transform: uppercase;
   text-align: left;
@@ -355,13 +355,27 @@ header nav .links-wrapper .menu button i {
   position: relative;
 }
 
-.intro-section .intro-content p::after {
+.intro-section .intro-content .exp::after {
   content: "";
   position: absolute;
   bottom: 0;
   left: 5%; /* Adjust the value to control the position of the "half" border */
   width: 30%; /* Set the width of the "half" border */
   border-bottom: 4px solid rgb(231, 231, 231);
+}
+.intro-section .intro-content .slog {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 1% 2%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  position: relative;
+  border: 1px solid white;
 }
 .intro-section .intro-content .ms{
   background-color: white;
