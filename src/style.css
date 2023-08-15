@@ -576,10 +576,8 @@ header nav .links-wrapper .menu button i {
 }
 
 .serv {
-  background: linear-gradient(to right, rgb(184, 0, 184), #3498db);
+  background:#3498db;
   color: white;
-  border-top-right-radius: 160px;
-  border-bottom-left-radius: 160px;
 }
 
 .mid-section h4 {
@@ -779,7 +777,7 @@ header nav .links-wrapper .menu button i {
 .contact .edge form input {
   margin-top: 4%;
   border: none;
-  border-left: 4px solid rgb(181, 4, 4);
+  border-left: 4px solid #3498db;
   padding: 2%;
   outline: none;
   border-radius: 0;
@@ -797,7 +795,7 @@ header nav .links-wrapper .menu button i {
   outline: none;
   resize: none;
   border: none;
-  border-left: 2px solid rgb(181, 4, 4);
+  border-left: 2px solid #3498db;
   font-size: 16px;
 }
 
@@ -805,7 +803,7 @@ header nav .links-wrapper .menu button i {
   width: 50%;
   margin-left: 25%;
   margin-top: 3%;
-  background-color: rgb(181, 4, 4);
+  background-color: #3498db;
   color: #fff;
   border: none;
   text-transform: capitalize;
@@ -895,7 +893,7 @@ header nav .links-wrapper .menu button i {
 .testimonialForm form input {
   margin-top: 4%;
   border: none;
-  border-left: 4px solid  rgb(63, 2, 2);
+  border-left: 4px solid  #3498db;
   padding: 2%;
   outline: none;
   border-radius: 0;
@@ -913,7 +911,7 @@ header nav .links-wrapper .menu button i {
   outline: none;
   resize: none;
   border: none;
-  border-left: 2px solid  rgb(63, 2, 2);
+  border-left: 2px solid  #3498db;
   font-size: 16px;
 }
 
@@ -922,8 +920,8 @@ header nav .links-wrapper .menu button i {
   margin-left: 25%;
   margin-top: 3%;
   background-color: white;
-  color: rgb(95, 3, 3);
-  border: 2px solid  rgb(95, 3, 3);
+  color: #3498db;
+  border: 2px solid  #3498db;
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
