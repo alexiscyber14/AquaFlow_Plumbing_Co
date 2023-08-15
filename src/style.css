@@ -616,6 +616,7 @@ header nav .links-wrapper .menu button i {
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 5%;
+  margin: 2%;
 }
 
 .mid-section .mid-section-wrapper div {
