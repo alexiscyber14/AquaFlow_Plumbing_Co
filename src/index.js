@@ -22,6 +22,34 @@ const headerMenu =()=>{
   }
 headerMenu();
 
+(function(){
+// Select the header element
+const header = document.querySelector('.sticky-header');
+const icob = document.querySelector('.fa-bars');
+const icot = document.querySelector('.fa-times');
+console.log(icob)
+
+// Listen for the scroll event
+window.addEventListener('scroll', () => {
+  // Determine the scroll position
+  const scrollPosition = window.scrollY;
+
+  // Set a threshold value to determine when to change the background color
+  const threshold = 100;
+
+  // Check if the scroll position has passed the threshold
+  if (scrollPosition > threshold) {
+    header.style.backgroundColor = 'white';
+    icob.style.color = 'rgb(4,4,87)';
+    icot.style.color = 'rgb(4,4,87)';
+
+  } else {
+    header.style.backgroundColor = 'rgba(0, 0, 0, 0.220)';
+    icob.style.color='white';
+    icot.style.color='white';
+  }
+});
+})();
 
 //slidr of content js
 (function() {
