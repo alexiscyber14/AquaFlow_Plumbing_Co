@@ -1585,7 +1585,7 @@ footer .ft-secs .title{
 
 
 
-@media screen and (min-width: 100px) {
+@media screen and (min-width: 1000px) {
   header {
     display: flex;
     flex-direction: row;
