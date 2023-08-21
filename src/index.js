@@ -86,6 +86,36 @@ rightSlider();
   viewMore();
   })();
 
+
+  (function() {
+    const footer =()=>{
+      var callBtns = document.querySelectorAll('.ft-a');
+      var contentContainer = document.querySelector('.slide-in');
+      var contentInside = document.querySelectorAll('.content');
+      const menuUl = document.querySelector('.links');
+      const closeMenu = document.querySelector('.fa-times');
+      const menuBar = document.querySelector('.fa-bars');
+      const closeSlideIn = document.querySelector('.close-slide-in');
+      callBtns.forEach((btn, index) => {
+        btn.addEventListener('click', function () {
+          contentContainer.style.transition = 'left 0.5s ease';
+          contentContainer.style.left = '0%';
+          contentInside[index].style.display= 'flex';
+          menuUl.style.transition = 'left 0.5s ease';
+          menuUl.style.left = '-85%';
+          menuBar.style.display='block';
+          closeMenu.style.display='none';
+        });
+        closeSlideIn.addEventListener('click', function(){
+        contentContainer.style.left='100%';
+        setTimeout(() => {
+          contentInside[index].style.display= 'none';
+        }, 1000);
+    });
+    });
+    };
+    footer();
+    })();
 // initializing a JavaScript object
 
 
