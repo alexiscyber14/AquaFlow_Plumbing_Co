@@ -31,10 +31,23 @@ li {
 a {
   text-decoration: none;
 }
+.blur-me{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/ba.jpg'); /* Set your background image */
+  filter: blur(10px); /* Apply the blur effect */
+  z-index: -1; 
+}
 
 main {
+  position: relative;
+  z-index: 2;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.308);
+  backgrund-color: rgba(0, 0, 0, 0);
+  
 }
 
 header {
@@ -45,7 +58,7 @@ header {
   width: 100%;
   top: 0%;
   z-index: 30;
-  background-color: rgba(0, 0, 0, 0.220);
+  backgroundcolor: rgba(0, 0, 0, 0);
 }
 
 header nav {
@@ -89,7 +102,6 @@ header nav .links-wrapper .links {
   overflow: auto;
   background-color: rgb(248, 248, 248);
   width: 85%;
-  box-shadow: 2px 2px 8px grey;
 }
 header nav .links-wrapper .links h2{
   text-transform: capitalize;
@@ -289,7 +301,6 @@ header nav .links-wrapper .menu button i {
 
 .intro-section .intro-content {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.222);
   flex-direction: column;
   padding: 2%;
   padding-top: 4%;
@@ -323,11 +334,13 @@ header nav .links-wrapper .menu button i {
   font-weight: 900;
   align-items: center;
   padding-top: 1%;
+  padding-bottom: 3%;
   align-items: center;
   padding-left: 5%;
   text-align:left;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 35px;
+  font-size: 18px;
   letter-spacing: 4px;
 }
 .intro-section .intro-content h1 span{
@@ -928,7 +941,7 @@ header nav .links-wrapper .menu button i {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: rgb(4, 4, 87);
+  background-color:rgb(2, 97, 119);
 }
 footer .ft-secs{
   color:#f4f4f4;
@@ -944,7 +957,7 @@ footer .ft-secs div p{
 footer .ft-secs div ul{
   height:200px;
   display: flex;
-  padding: 0;
+  padding: 3px;
   flex-direction: column;
   align-items: center;
   overflow: auto;
@@ -962,7 +975,7 @@ footer .ft-secs div ul a{
 footer .ft-secs h2{
   display: flex;
   width: 100%;
-color: #d3d3d3;
+color: #eeecec;
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
@@ -993,12 +1006,13 @@ footer .ft-secs h3 span{
   letter-spacing: 2px;
 }
 footer .ft-secs .title{
-  font-size: 35px;
+  font-size: 25px;
   margin: 0;
+  color: white;
   margin-top: 30px;
 }
 .wide{
-  background-color:rgb(4,4,87);
+  background-color:rgb(3, 109, 155);
   padding: 2px;
   margin-top: 10px;
   border-radius: 6px;
@@ -1007,16 +1021,17 @@ footer .ft-secs .title{
   color: #d3d3d3;
 }
 .wide h4{
-  color: orange;
+  color: rgb(245, 245, 245);
 }
 .wide h5{
-  color: orange;
+  color: rgb(253, 253, 253);
   font-size: 15px;
+  letter-spacing: 2px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 .wide p{
-  color: rgb(225, 222, 222);
+  color: rgb(241, 241, 241);
   text-align: left;
 
 
@@ -1805,7 +1820,7 @@ background-color:rgb(3, 3, 149);
   padding-left: 5%;
   text-align:left;
   font-family: 'Poppins', sans-serif;
-  font-size: 95px;
+  font-size: 55px;
   letter-spacing: 10px;
 }
 .intro-section .intro-content h2 {
@@ -1835,7 +1850,7 @@ background-color:rgb(3, 3, 149);
   margin: 0;
   text-transform: uppercase;
   text-align: left;
-  color:grey; rgb(255, 255, 255);
+  color:grey;
   font-size: 13px;
   letter-spacing: 2px;
   padding: 1% 5%;
@@ -1867,7 +1882,7 @@ background-color:rgb(3, 3, 149);
   border: 1px solid grey;
 }
 .intro-section .intro-content .ms{
-  background-color:rgba(4, 4, 87, 0.539);
+  background-color:rgba(3, 3, 41, 0.885);
   width: 20%;
   padding: 5px 0px;
   text-align: center;

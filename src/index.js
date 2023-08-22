@@ -27,6 +27,7 @@ headerMenu();
 const header = document.querySelector('.sticky-header');
 const icob = document.querySelector('.fa-bars');
 const icot = document.querySelector('.fa-times');
+const aim = document.querySelector('.aim');
 console.log(icob)
 
 // Listen for the scroll event
@@ -40,13 +41,15 @@ window.addEventListener('scroll', () => {
   // Check if the scroll position has passed the threshold
   if (scrollPosition > threshold) {
     header.style.backgroundColor = 'white';
-    icob.style.color = 'rgb(4,4,87)';
-    icot.style.color = 'rgb(4,4,87)';
+    icob.style.color = 'rgb(2, 97, 119)';
+    aim.style.color= 'rgb(2, 97, 119)';
+    icot.style.color = 'rgb(2, 97, 119)';
 
   } else {
-    header.style.backgroundColor = 'rgba(0, 0, 0, 0.220)';
+    header.style.backgroundColor = 'rgba(0, 0, 0, 0)';
     icob.style.color='white';
     icot.style.color='white';
+    aim.style.color='white';
   }
 });
 })();
